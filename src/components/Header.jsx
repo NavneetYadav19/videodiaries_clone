@@ -73,13 +73,13 @@ const Header = () => {
                 )}
                 <Link to="/" className="md:flex ml-2 md:h-5 items-center">
                     <animated.img
-                        className="md:h-14 md:w-16 h-12 w-14 ml-2"
+                        className="md:h-14 md:w-16 h-14 w-16 ml-2"
                         src={logo}
                         alt=""
                         style={logoSpring}
                     />
                     <animated.h1
-                        className={`font-medium md:text-lg text-xs md:border-l-2 md:my-6 md:pl-4 md:border-red-700 ${
+                        className={`md:flex hidden font-medium md:text-lg text-xs md:border-l-2 md:my-6 md:pl-4 md:border-red-700 ${
                             theme === "dark" ? "text-white" : "text-black"
                         }`}
                         style={textSpring}
